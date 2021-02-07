@@ -1,7 +1,9 @@
 // calculadora simples usando o switch com entrada de dados do usuario.
 
+
 function calculate (number1, operate, number2) {
     let result = 0
+
     number1 = window.prompt("Informe um número: ");
     operate = window.prompt("Informe o operador: ");
     number2 = window.prompt("Informe outro número: ");
@@ -30,3 +32,5 @@ function calculate (number1, operate, number2) {
 }
 
 calculate()
+
+
