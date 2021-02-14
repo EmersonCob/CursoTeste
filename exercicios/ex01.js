@@ -88,10 +88,14 @@ console.log(students)
     abaixo e por que? Após sua resposta, rode o código e veja se você acertou.
 */
 
-console.log(a) // o resultado será "undefined", pois a variável VAR     // ainda não foi declarada antes do console.log e por ser global ela
-// sofrerá o efeito hoisting sendo elevada para antes do console.log 
-// e só após o console.log ela receberá o seu valor. 
-var a = 1 // OBS.: Caso a variável fosse let ou const teriamos como
-//retorno um erro de inicialização, pois elas não sofrem o efeito
-//hoisting
-
+console.log(a) 
+/*  o resultado será "undefined", pois a variável VAR     
+    ainda não foi declarada antes do console.log e por ser global ela
+    sofrerá o efeito hoisting sendo elevada para antes do console.log 
+    e só após o console.log ela receberá o seu valor. 
+*/
+var a = 1 
+/*  OBS.: Caso a variável fosse let ou const teriamos como
+    retorno um erro de inicialização, pois elas não sofrem o efeito
+    hoisting
+*/
