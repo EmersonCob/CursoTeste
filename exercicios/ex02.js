@@ -42,11 +42,23 @@ function createThink1(subject1){ // ao inserir o subject como pârametro,
 console.log(createThink1(subject1))
 console.log(subject1)
 
+
 // arrow function
 
+const arrowFunction = () => {} // estrutura de uma arrow function
 
-const sayMyname = () => {
+// Exemplo 1
+
+const sayMyname = () => { 
     console.log("Mayk")
 }
 
 sayMyname()
+
+// Exemplo 2
+
+const sayMyname1 = (name) => {
+    console.log(name)
+}
+
+sayMyname1('Maik')
