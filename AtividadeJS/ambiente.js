@@ -29,8 +29,15 @@ console.log(`o Vetor possue ${valores.length} elementos!`)
 
 // verificar se dentro do ARRAY existe um elemento especifico
 
-let ver = valores.indexOf(6)
+let ver = valores.indexOf(6) // OBS.: Caso o valor informado no indexOf() 
+                             // não seja localizado dentro do ARRAY o retorno será -1
 
 console.log(`O valor 6 está na posição ${ver}`)
 
-// OBS.: Caso o valor informado no indexOf() não seja localizado dentro do ARRAY o retorno será -1
+// Incrmentando com IF e ELSE
+
+if (ver == 1) {
+    console.log("O valor não foi encontrado")
+} else {
+    console.log(`O valor está na posição ${ver}`)
+}
