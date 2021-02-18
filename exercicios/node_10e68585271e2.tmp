@@ -1,6 +1,6 @@
 // Estrutura de repetição
 // For
-
+/*
 for(let i = 0; i <= 10; i++) { // (inicialização, condição e incremento)
     console.log(i)
 }
@@ -22,8 +22,7 @@ for(let i = 0; i <= 10; i++){
     }
     console.log(i)
 }
-
-// testando loops
+*/
 
 for(let num = 0; num <= 11; num++) {
    if(num === 3) {
@@ -32,9 +31,7 @@ for(let num = 0; num <= 11; num++) {
    console.log(num)
 }
 
-
-
-for(let num = 11; num >= 0; num--){
+for(let num = 11; num => 0; num--){
     if(num===7) {
         continue
     }
