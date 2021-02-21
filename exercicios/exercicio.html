@@ -3,35 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="calculate.css">
+    <title>Calculadora</title>
 </head>
 <body>
     
-    <h3>page test</h3>
+    <h3 id="title">Calculadora do JebCob</h3>
     
     <form>
-        <input type="number" name="numero1" id="numero1"><br><br>
-        <input type="number" name="numero2" id="numero2"><br><br>
-        <div>
-            <input type="button" value="7">
-            <input type="button" value="8">
-            <input type="button" value="9"><br>
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="6"><br>
-            <input type="button" value="1">
-            <input type="button" value="2">
-            <input type="button" value="3"><br>
-            <input type="button" value="0">
-            <input type="button" value=","><br><br>
+        <div id="boxCalculate">
+            <input type="number" name="numero1" id="numero1"><br><br>
+            <input type="number" name="numero2" id="numero2"><br><br>
+            <div>
+                <input type="button" value="7" id="btnInput">
+                <input type="button" value="8" id="btnInput">
+                <input type="button" value="9" id="btnInput"><br>
+                <input type="button" value="4" id="btnInput">
+                <input type="button" value="5" id="btnInput">
+                <input type="button" value="6" id="btnInput"><br>
+                <input type="button" value="1" id="btnInput">
+                <input type="button" value="2" id="btnInput">
+                <input type="button" value="3" id="btnInput"><br>
+                <input type="button" value="0" id="btnInput">
+                <input type="button" value="," id="btnInput">
+                <input type="button" value="=" id="btnInput"><br><br>
+            </div>
+            <div id="operator">
+                <input type="button" value="+">
+                <input type="button" value="-">
+                <input type="button" value="/">
+                <input type="button" value="*">
+            </div>
         </div>
-        
-        
-        <input type="button" value="="><br><br>
-        <input type="button" value="+">
-        <input type="button" value="-"><br>
-        <input type="button" value="/">
-        <input type="button" value="*"><br>
     </form>
 
 
